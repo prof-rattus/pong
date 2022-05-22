@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+#board{
+    width: 1024px;
+    height: 768px;
+    border: 2px white solid;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+.net{
+    height: 100%;
+    width: 0px;
+    margin: auto;
+    border: 6px dashed white;
+    box-sizing: border-box;
+    border-style: dashed;
+}
+
+#p1, #p2 {
+    width: 20px;
+    height: 80px;
+    position: absolute;
+    background-color: white;
+    border: white;
+}
+
+#p1 {
+    top: 0px;
+    left: 20px;
+}
+
+#p2 {
+    top: 0px;
+    right: 20px;
+}
+
+#ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+@font-face {
+    font-family: 'bit';
+    src: url('Bit5x3.woff') format('woff');
+}
+
+
+#score1, #score2{
+    position: absolute;
+    font-family: 'bit';
+    color: white;
+    font-size: 200px;
+}
+
+#score1{
+    top: 20px;
+    left: 320px;
+}
+#score2{
+    top: 20px;
+    right: 320px;
+}

@@ -157,8 +157,6 @@ function restart() {
             ? (10 + Math.random() * 70) * (Math.PI / 180)
             : (100 + Math.random() * 70) * (Math.PI / 180);
 
-    state.ball.angle = 0.1
-
     move(state.ball.element, state.ball.left, state.ball.top);
     state.time = Date.now();
 }
